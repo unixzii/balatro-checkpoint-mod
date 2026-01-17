@@ -1,0 +1,18 @@
+[manifest]
+version = "1.0.0"
+priority = 0
+
+[[patches]]
+[patches.module]
+source = "mod.lua"
+name = "checkpoint_mod"
+
+[[patches]]
+[patches.pattern]
+target = "main.lua"
+pattern = "math.randomseed( G.SEED )"
+position = "before"
+match_indent = true
+payload = '''
+require "checkpoint_mod"
+'''
