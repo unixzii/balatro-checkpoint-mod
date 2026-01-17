@@ -2,7 +2,9 @@
 
 A simple Balatro mod to add checkpoint functionalities.
 
-Made a mistake by accident? Don't worry, you can reload your progress from the last round or the beginning of the last ante.
+Made a mistake by accident? Don't worry, you can reload your progress from the last round or the beginning of the last ante. Let's see it in action:
+
+https://github.com/user-attachments/assets/b3aab2d8-b7cd-4016-a9ea-1b0986945447
 
 ## Installation
 
